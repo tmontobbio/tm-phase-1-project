@@ -4,10 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="index.css" />
-    <script src="src/index.js"></script>
-    <title>Project Phase 1</title>
+    <script defer src="src/index.js"></script>
+    <title>Lab Liker!</title>
   </head>
-  <body>
-    <h1>Testing!</h1>
+  <body id="background">
+    <div id="banner">
+      <h1 id="Title">&#128021;Lab Liker!&#128021;</h1>
+    </div>
+    <div id="container">
+      <form id="rating-form">
+        <input type="text" for="rating" id="new-rating" placeholder="Rating" />
+        <input type="submit" value="Submit!" />
+      </form>
+      <div id="picture-container">Picture goes here</div>
+      <div id="form-container">
+        <form id="submit-dog">
+          <input
+            type="text"
+            for="image-submit"
+            id="new-doggo"
+            placeholder="Doggo URL"
+          />
+          <input type="submit" value="Submit!" />
+        </form>
+      </div>
+    </div>
   </body>
 </html>

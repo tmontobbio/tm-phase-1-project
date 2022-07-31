@@ -1,3 +1,36 @@
-h1 {
-  color: red;
+#banner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: rgb(255, 192, 255);
+  height: 12rem;
+  padding: 1rem;
+  font-size: 200%;
+}
+
+#background {
+  background-image: url("img/tennis-ball-pattern.jpg");
+  background-repeat: repeat;
+  background-size: 25%;
+}
+
+#container {
+  margin: 0 auto;
+  background-color: gray;
+  text-align: center;
+  justify-content: center;
+  width: 75%;
+  padding: 100px, 100px, 100px, 100px;
+}
+
+#picture-container {
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+}
+
+#rating-form {
+}
+
+#submit-dog {
 }
