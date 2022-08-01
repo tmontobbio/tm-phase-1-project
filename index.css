@@ -7,7 +7,7 @@
 
 #banner {
   margin: auto;
-  width: 30%;
+  width: 35%;
   height: auto;
   border: 3px solid rgb(0, 0, 0);
   padding: 10px;
@@ -24,15 +24,25 @@
   background-color: rgba(0, 195, 255, 0.945);
   text-align: center;
   justify-content: center;
-  width: 35%;
+  width: 40%;
   border: 3px solid rgb(0, 0, 0);
   border-radius: 15px;
 }
 
-#doggo-img {
+#doggo-img-container {
   margin: 0 auto;
   height: 300px;
   width: auto;
+}
+
+.doggo-filler-img {
+  margin: 0 auto;
+  height: 300px;
+  width: auto;
+}
+
+#add-rating {
+  margin: 25px auto;
 }
 
 #add-likes {
@@ -40,11 +50,11 @@
 }
 
 #submit-dog {
-  margin: 10px auto;
+  margin: 25px auto;
 }
 
 #next-dog {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 #like-value {
