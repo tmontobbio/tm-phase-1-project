@@ -12,7 +12,7 @@
       <h1 id="Title">&#128021;Lab Liker!&#128021;</h1>
     </div>
     <div id="container">
-      <form id="add-rating">
+      <form class="input" id="add-rating">
         <input
           type="text"
           placeholder="Rating 0/10"
@@ -27,10 +27,11 @@
       </div>
       <div id="doggo-img-container"></div>
       <div id="next-doggo-container">
-        <button id="next-dog">Next Lab!</button>
+        <button class="input" id="favorite-button">Favorite &#x2665;</button>
+        <button class="input" id="next-dog">Next Lab!</button>
       </div>
       <div id="form-container">
-        <form id="submit-dog">
+        <form class="input" id="submit-dog">
           <input
             type="text"
             for="image-submit"
@@ -41,6 +42,7 @@
         </form>
       </div>
     </div>
+    <div id="favorite-doggos"></div>
     <script defer src="src/index.js"></script>
   </body>
 </html>

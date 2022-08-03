@@ -29,6 +29,16 @@
   border-radius: 15px;
 }
 
+#favorite-doggos {
+  margin: 0 auto;
+  background-color: rgba(0, 195, 255, 0.945);
+  text-align: center;
+  justify-content: center;
+  width: 40%;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
 #doggo-img-container {
   margin: 0 auto;
   height: 300px;
@@ -41,20 +51,15 @@
   width: auto;
 }
 
-#add-rating {
-  margin: 25px auto;
+.favorited-doggo-img {
+  margin: 0 auto;
+  height: 100px;
+  width: auto;
 }
 
-#add-likes {
-  margin: 10px auto;
-}
-
-#submit-dog {
-  margin: 25px auto;
-}
-
-#next-dog {
-  margin-top: 25px;
+.input {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #like-value {
@@ -64,4 +69,5 @@
 img {
   height: 100%;
   width: auto;
+  border: 5px solid rgb(255, 192, 255);
 }
